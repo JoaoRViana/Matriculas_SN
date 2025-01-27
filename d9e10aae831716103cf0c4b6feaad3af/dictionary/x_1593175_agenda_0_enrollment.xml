@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="af7482a2835716103cf0c4b6feaad35d" extends="task" label="Enrollment" max_length="40" name="x_1593175_agenda_0_enrollment" type="collection">
+        <element label="reproval reason" max_length="250" name="reproval_reason" type="string"/>
+        <element label="training" max_length="32" name="training" reference="x_1593175_agenda_0_training" type="reference"/>
+    </element>
+</database>
