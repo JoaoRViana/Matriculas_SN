@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="DELETE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_1593175_agenda_0.checkDate</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <mobile_callable>false</mobile_callable>
+        <name>checkDate</name>
+        <sandbox_callable>false</sandbox_callable>
+        <script><![CDATA[var checkDate = Class.create();
+checkDate.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+	checkDateAndCourse:function(){
+		var day = this.getParameter('day');
+        var course = this.getParameter('course');
+		var grTraining = new GlideRecord('x_1593175_agenda_0_training');
+		grTraining.addQuery("day",day);
+		grTraining.addQuery("course",course);
+		grTraining.query();
+		var arr=[];
+		while(grTraining.next()){
+			arr.push(grTraining);
+		}
+		return arr.length>1;
+	},
+    type: 'checkDate'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-27 19:07:31</sys_created_on>
+        <sys_id>124f8622839716103cf0c4b6feaad342</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>checkDate</sys_name>
+        <sys_package display_value="Agendamento" source="x_1593175_agenda_0">d9e10aae831716103cf0c4b6feaad3af</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Agendamento">d9e10aae831716103cf0c4b6feaad3af</sys_scope>
+        <sys_update_name>sys_script_include_124f8622839716103cf0c4b6feaad342</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-27 19:07:31</sys_updated_on>
+    </sys_script_include>
+    <sys_es_latest_script action="DELETE">
+        <id>124f8622839716103cf0c4b6feaad342</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-27 19:07:31</sys_created_on>
+        <sys_id>80721ee2839716103cf0c4b6feaad31e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-27 19:07:31</sys_updated_on>
+        <table>sys_script_include</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Agendamento">d9e10aae831716103cf0c4b6feaad3af</application>
+        <file_path/>
+        <instance_id>23596efddb36f55002d91729139619f7</instance_id>
+        <instance_name>dev228991</instance_name>
+        <name>sys_script_include_124f8622839716103cf0c4b6feaad342</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_script_include"&gt;&lt;sys_script_include action="INSERT_OR_UPDATE"&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;active&gt;true&lt;/active&gt;&lt;api_name&gt;x_1593175_agenda_0.checkDate&lt;/api_name&gt;&lt;caller_access/&gt;&lt;client_callable&gt;true&lt;/client_callable&gt;&lt;description/&gt;&lt;mobile_callable&gt;false&lt;/mobile_callable&gt;&lt;name&gt;checkDate&lt;/name&gt;&lt;sandbox_callable&gt;false&lt;/sandbox_callable&gt;&lt;script&gt;&lt;![CDATA[var checkDate = Class.create();
+checkDate.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+	checkDateAndCourse:function(){
+		var day = this.getParameter('day');
+        var course = this.getParameter('course');
+		var grTraining = new GlideRecord('x_1593175_agenda_0_training');
+		grTraining.addQuery("day",day);
+		grTraining.addQuery("course",course);
+		grTraining.query();
+		var arr=[];
+		while(grTraining.next()){
+			arr.push(grTraining);
+		}
+		return arr.length&gt;1;
+	},
+    type: 'checkDate'
+});]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_include&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-01-27 19:07:31&lt;/sys_created_on&gt;&lt;sys_id&gt;124f8622839716103cf0c4b6feaad342&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;checkDate&lt;/sys_name&gt;&lt;sys_package display_value="Agendamento" source="x_1593175_agenda_0"&gt;d9e10aae831716103cf0c4b6feaad3af&lt;/sys_package&gt;&lt;sys_policy&gt;read&lt;/sys_policy&gt;&lt;sys_scope display_value="Agendamento"&gt;d9e10aae831716103cf0c4b6feaad3af&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_include_124f8622839716103cf0c4b6feaad342&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-01-27 19:07:31&lt;/sys_updated_on&gt;&lt;/sys_script_include&gt;&lt;sys_es_latest_script action="INSERT_OR_UPDATE"&gt;&lt;id&gt;124f8622839716103cf0c4b6feaad342&lt;/id&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-01-27 19:07:31&lt;/sys_created_on&gt;&lt;sys_id&gt;80721ee2839716103cf0c4b6feaad31e&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-01-27 19:07:31&lt;/sys_updated_on&gt;&lt;table&gt;sys_script_include&lt;/table&gt;&lt;use_es_latest&gt;true&lt;/use_es_latest&gt;&lt;/sys_es_latest_script&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-794149784</payload_hash>
+        <record_name>checkDate</record_name>
+        <reverted_from/>
+        <source>6f75ca62835716103cf0c4b6feaad3fb</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-27 19:07:32</sys_created_on>
+        <sys_id>e072d226839716103cf0c4b6feaad3f9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>194a92970510000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-27 19:07:32</sys_updated_on>
+        <type>Script Include</type>
+        <update_guid>e472d2266d971610123c8dd3b0b603f8</update_guid>
+        <update_guid_history>e472d2266d971610123c8dd3b0b603f8:-794149784</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-27 19:08:27</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_include">sys_script_include</sys_db_object>
+        <sys_id>05c077c1e22943d28451c3ba286135c1</sys_id>
+        <sys_metadata>124f8622839716103cf0c4b6feaad342</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>checkDate</sys_name>
+        <sys_package display_value="Agendamento" source="x_1593175_agenda_0">d9e10aae831716103cf0c4b6feaad3af</sys_package>
+        <sys_parent/>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Agendamento">d9e10aae831716103cf0c4b6feaad3af</sys_scope>
+        <sys_scope_delete display_value="">14513bbd9921469c877665127e9c4fa4</sys_scope_delete>
+        <sys_update_name>sys_script_include_124f8622839716103cf0c4b6feaad342</sys_update_name>
+        <sys_update_version display_value="sys_script_include_124f8622839716103cf0c4b6feaad342">e072d226839716103cf0c4b6feaad3f9</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-27 19:08:27</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

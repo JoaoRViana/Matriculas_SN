@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_user_criteria_mtom">
+    <sc_cat_item_user_criteria_mtom action="INSERT_OR_UPDATE">
+        <sc_cat_item display_value="Request Enrollment">9b5c5e6283d716103cf0c4b6feaad36b</sc_cat_item>
+        <sys_class_name>sc_cat_item_user_criteria_mtom</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-27 20:09:06</sys_created_on>
+        <sys_id>4d102e6683d716103cf0c4b6feaad33e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Request Enrollment.Enrollment - Users</sys_name>
+        <sys_package display_value="Agendamento" source="x_1593175_agenda_0">d9e10aae831716103cf0c4b6feaad3af</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Agendamento">d9e10aae831716103cf0c4b6feaad3af</sys_scope>
+        <sys_update_name>sc_cat_item_user_criteria_mtom_4d102e6683d716103cf0c4b6feaad33e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-27 20:09:06</sys_updated_on>
+        <user_criteria display_value="Enrollment - Users">4b60a6e683d716103cf0c4b6feaad363</user_criteria>
+    </sc_cat_item_user_criteria_mtom>
+</record_update>
