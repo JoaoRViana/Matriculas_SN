@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>day</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>ValidateDuplicateOnDayField</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+   if (isLoading || newValue === '' || g_form.getValue("course")==="") {
+      return;
+   }
+   var gaValidateDuplicate = new GlideAjax("AjaxValidateDuplicate");
+   gaValidateDuplicate.addParam("sysparm_name","valDuplicate");
+   var course_id = g_form.getValue("course");
+   var date = g_form.getValue("day");
+   gaValidateDuplicate.addParam("sysparam_course_sys_id",course_id);
+   gaValidateDuplicate.addParam("sysparam_date",date);
+   gaValidateDuplicate.getXML(callback);
+   //Type appropriate comment here, and begin script below
+   
+}
+
+function callback(response){
+  	var answer = response.responseXML.documentElement.getAttribute("answer");
+	if(answer=='true'){
+		g_form.setValue("course","");
+		g_form.setValue("day","");
+		g_form.addErrorMessage("Duplicate Training");
+	}else{
+		g_form.clearMessages();
+	}
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-29 18:52:46</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>7902a8d7831bd6103cf0c4b6feaad36f</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>ValidateDuplicateOnDayField</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Agendamento" source="x_1593175_agenda_0">d9e10aae831716103cf0c4b6feaad3af</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Agendamento">d9e10aae831716103cf0c4b6feaad3af</sys_scope>
+        <sys_update_name>sys_script_client_7902a8d7831bd6103cf0c4b6feaad36f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-29 19:09:11</sys_updated_on>
+        <table>x_1593175_agenda_0_training</table>
+        <type>onChange</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>
