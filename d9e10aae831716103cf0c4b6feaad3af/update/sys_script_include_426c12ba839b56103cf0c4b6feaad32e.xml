@@ -19,7 +19,7 @@ AgendamentoUtils.prototype = {
 		var concludedCourses=[];
 		var myTrainings = [];
 		var grEnrollments = new GlideRecord("x_1593175_agenda_0_enrollment");
-		grEnrollments.addEncodedQuery("opened_byDYNAMIC90d1921e5f510100a9ad2572f2b477fe");
+		grEnrollments.addEncodedQuery("studentDYNAMIC90d1921e5f510100a9ad2572f2b477fe");
 		grEnrollments.query();
 		while(grEnrollments.next()){
 			if(grEnrollments.state.toString()=='3' || grEnrollments.state.toString()=='2'){
@@ -39,8 +39,16 @@ AgendamentoUtils.prototype = {
 		grTrainings.addEncodedQuery("day>javascript:gs.endOfToday()");
 		grTrainings.query();
 		while(grTrainings.next()){
+			var grEnrollments2 = new GlideRecord("x_1593175_agenda_0_enrollment");
+			grEnrollments2.addQuery("training.sys_id",grTrainings.sys_id.toString());
+			grEnrollments2.addQuery("state","!=","4");
+			grEnrollments2.query();
+			var enrollmentArr = [];
+			while(grEnrollments2.next()){
+				enrollmentArr.push(grEnrollments2);
+			}
 			if(!myTrainings.includes(grTrainings.sys_id.toString()) && !concludedCourses.includes(grTrainings.course.sys_id.toString()) && grTrainings.teacher.sys_id.toString() != gs.getUserID().toString()
-			&& grTrainings.spots > grTrainings.occupied_spots ){
+			&& grTrainings.spots > enrollmentArr.length ){
 				trainingToBeShown.push(grTrainings.sys_id.toString());
 			}
 		}
@@ -52,14 +60,14 @@ AgendamentoUtils.prototype = {
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-01-28 14:54:25</sys_created_on>
         <sys_id>426c12ba839b56103cf0c4b6feaad32e</sys_id>
-        <sys_mod_count>15</sys_mod_count>
+        <sys_mod_count>18</sys_mod_count>
         <sys_name>AgendamentoUtils</sys_name>
         <sys_package display_value="Agendamento" source="x_1593175_agenda_0">d9e10aae831716103cf0c4b6feaad3af</sys_package>
         <sys_policy>read</sys_policy>
         <sys_scope display_value="Agendamento">d9e10aae831716103cf0c4b6feaad3af</sys_scope>
         <sys_update_name>sys_script_include_426c12ba839b56103cf0c4b6feaad32e</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-28 18:20:03</sys_updated_on>
+        <sys_updated_on>2025-01-29 13:39:06</sys_updated_on>
     </sys_script_include>
     <sys_es_latest_script action="INSERT_OR_UPDATE">
         <id>426c12ba839b56103cf0c4b6feaad32e</id>

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
     <catalog_ui_policy_action action="INSERT_OR_UPDATE">
         <catalog_item display_value="Request Enrollment">9b5c5e6283d716103cf0c4b6feaad36b</catalog_item>
-        <catalog_variable>IO:881d9ea283d716103cf0c4b6feaad39e</catalog_variable>
+        <catalog_variable>IO:7e6edae283d716103cf0c4b6feaad3cd</catalog_variable>
         <cleared>false</cleared>
-        <disabled>true</disabled>
+        <disabled>ignore</disabled>
         <field/>
         <field_message/>
         <field_message_type>none</field_message_type>
@@ -11,23 +11,23 @@
         <order>100</order>
         <sys_class_name>catalog_ui_policy_action</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-01-27 20:13:14</sys_created_on>
-        <sys_id>72712a2a83d716103cf0c4b6feaad3e6</sys_id>
+        <sys_created_on>2025-01-29 13:31:45</sys_created_on>
+        <sys_id>55c89f8b8393d6103cf0c4b6feaad337</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>training</sys_name>
+        <sys_name>teacher</sys_name>
         <sys_package display_value="Agendamento" source="x_1593175_agenda_0">d9e10aae831716103cf0c4b6feaad3af</sys_package>
         <sys_policy/>
         <sys_scope display_value="Agendamento">d9e10aae831716103cf0c4b6feaad3af</sys_scope>
-        <sys_update_name>catalog_ui_policy_action_72712a2a83d716103cf0c4b6feaad3e6</sys_update_name>
+        <sys_update_name>catalog_ui_policy_action_55c89f8b8393d6103cf0c4b6feaad337</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-27 20:13:14</sys_updated_on>
+        <sys_updated_on>2025-01-29 13:31:45</sys_updated_on>
         <table/>
-        <ui_policy display_value="read only fields">d2412e2a83d716103cf0c4b6feaad332</ui_policy>
+        <ui_policy display_value="Omit Fields">bb98d78b8393d6103cf0c4b6feaad336</ui_policy>
         <value/>
         <value_action>ignore</value_action>
-        <variable>training</variable>
+        <variable>teacher</variable>
         <variable_set/>
-        <visible>ignore</visible>
+        <visible>false</visible>
     </catalog_ui_policy_action>
-    <sys_translated_text action="delete_multiple" query="documentkey=72712a2a83d716103cf0c4b6feaad3e6"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=55c89f8b8393d6103cf0c4b6feaad337"/>
 </record_update>
