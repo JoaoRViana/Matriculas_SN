@@ -27,8 +27,23 @@ AjaxUtils.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
 		return 'false';
 	},
 	valStudent: function(){
-		var courseId = this.getParameter("sysparam_course_sys_id");
+		var student = this.getParameter("sysparam_student_sys_id");
 		var training = this.getParameter("sysparam_training");
+		var grEnrollment = new GlideRecord("x_1593175_agenda_0_enrollment");
+		var grTraining = new GlideRecord("x_1593175_agenda_0_training");
+		grTraining.addQuery("teacher",student);
+		grTraining.query();
+		while(grTraining.next()){
+			return 'true';
+		}
+		grEnrollment.addQuery("state","!=","4");
+		grEnrollment.addQuery("student",student);
+		grEnrollment.addQuery("training",training);
+		grEnrollment.query();
+		while(grEnrollment.next()){
+			return 'true';
+		}
+		return 'false';
 	},
     type: 'AjaxUtils'
 });]]></script>
@@ -36,14 +51,14 @@ AjaxUtils.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-01-30 18:58:21</sys_created_on>
         <sys_id>accca5ef83535a103cf0c4b6feaad34c</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>AjaxUtils</sys_name>
         <sys_package display_value="Agendamento" source="x_1593175_agenda_0">d9e10aae831716103cf0c4b6feaad3af</sys_package>
         <sys_policy>read</sys_policy>
         <sys_scope display_value="Agendamento">d9e10aae831716103cf0c4b6feaad3af</sys_scope>
         <sys_update_name>sys_script_include_accca5ef83535a103cf0c4b6feaad34c</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-30 18:58:21</sys_updated_on>
+        <sys_updated_on>2025-01-30 20:47:00</sys_updated_on>
     </sys_script_include>
     <sys_es_latest_script action="INSERT_OR_UPDATE">
         <id>accca5ef83535a103cf0c4b6feaad34c</id>
