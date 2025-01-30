@@ -15,7 +15,7 @@
         <flow_priority>MEDIUM</flow_priority>
         <generation_source/>
         <internal_name>remove_notification</internal_name>
-        <label_cache>[{"name":"subflow.state","label":"Input➛state","type":"string","base_type":"string","usedInstances":{"b672d321-a36a-4a1d-936c-8f3b47eebe41":["condition"]},"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"1bd1c35e-beb0-4371-a7da-c104a3b29868"}},{"name":"subflow.email","label":"Input➛email","type":"string","base_type":"string","usedInstances":{"a71f8a53-19c9-4baf-8507-f3649a89c691":["ah_to"]},"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"718c9be5-def7-4c69-bd5c-0e94c185c972"}},{"name":"subflow.info","label":"Input➛info","type":"string","base_type":"string","usedInstances":{"a71f8a53-19c9-4baf-8507-f3649a89c691":["ah_subject"]},"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"a989b059-20a3-4595-97ee-3c58e57f4dff"}}]</label_cache>
+        <label_cache>[{"name":"subflow.info","label":"Input➛info","type":"string","base_type":"string","usedInstances":{"a71f8a53-19c9-4baf-8507-f3649a89c691":["ah_subject"]},"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"a989b059-20a3-4595-97ee-3c58e57f4dff"}},{"name":"subflow.email","label":"Input➛email","type":"string","base_type":"string","usedInstances":{"a71f8a53-19c9-4baf-8507-f3649a89c691":["ah_to"]},"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"718c9be5-def7-4c69-bd5c-0e94c185c972"}},{"name":"subflow.state","label":"Input➛state","type":"string","base_type":"string","usedInstances":{"b672d321-a36a-4a1d-936c-8f3b47eebe41":["condition"]},"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"1bd1c35e-beb0-4371-a7da-c104a3b29868"}}]</label_cache>
         <master_snapshot>550379ab83935a103cf0c4b6feaad370</master_snapshot>
         <master_snapshot_digest/>
         <name>Remove Notification</name>
@@ -23,12 +23,12 @@
         <outputs/>
         <pre_compiled>false</pre_compiled>
         <remote_trigger_id/>
-        <run_as>user</run_as>
+        <run_as>system</run_as>
         <run_with_roles/>
         <sc_callable>false</sc_callable>
         <show_draft_actions>false</show_draft_actions>
         <show_triggered_flows>false</show_triggered_flows>
-        <status>published</status>
+        <status>draft</status>
         <substatus/>
         <sys_class_name>sys_hub_flow</sys_class_name>
         <sys_created_by>admin</sys_created_by>
@@ -36,7 +36,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>b272396b83935a103cf0c4b6feaad3ad</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>Remove Notification</sys_name>
         <sys_overrides/>
         <sys_package display_value="Agendamento" source="x_1593175_agenda_0">d9e10aae831716103cf0c4b6feaad3af</sys_package>
@@ -44,7 +44,7 @@
         <sys_scope display_value="Agendamento">d9e10aae831716103cf0c4b6feaad3af</sys_scope>
         <sys_update_name>sys_hub_flow_b272396b83935a103cf0c4b6feaad3ad</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-30 19:24:11</sys_updated_on>
+        <sys_updated_on>2025-01-30 19:57:35</sys_updated_on>
         <type>subflow</type>
         <version>2</version>
     </sys_hub_flow>
@@ -326,7 +326,7 @@
         <action_type_parent display_value="Send Email">98c181d20b100300d97d8bf637673ab5</action_type_parent>
         <attributes/>
         <comment/>
-        <compiled_snapshot/>
+        <compiled_snapshot>c1806bf4a70323008299b39f087901cb</compiled_snapshot>
         <display_text/>
         <flow display_value="Remove Notification">b272396b83935a103cf0c4b6feaad3ad</flow>
         <generation_source/>
@@ -336,12 +336,12 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-01-30 19:24:09</sys_created_on>
         <sys_id>510379ab83935a103cf0c4b6feaad332</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_scope display_value="Agendamento">d9e10aae831716103cf0c4b6feaad3af</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-30 19:24:09</sys_updated_on>
+        <sys_updated_on>2025-01-30 20:00:13</sys_updated_on>
         <ui_id>a71f8a53-19c9-4baf-8507-f3649a89c691</ui_id>
-        <values>H4sIAAAAAAAA/+2X227bOBCGX4XQtevK5zh33QbBFti2QGp0sWgKgSIpi1uK1FKUXTfwu+9QoiwpThTDboIW8J1Fcob/zHwzkr/ceZx6l96YXvjTMBrjmT8ajnz/Yjifh6N55F/M5v6AUK/nSZwwOKkZUdo+r7DI7QL8pDxLBd58rldIzAXVTHqXX772vBRrMDZMe5d397bMJmWBwCETYHilSJ4wadC7K/BxqLDKeoH1khl0Uwm8L9heBc/UXRJwuwhbVpbf89h3wyRlcGmERcZ6XoIlxUbpzW5FM0w/SlEvxFwacPkmyxTh2LAMmZghlmAu0JqbGGFUXt/3rL/vGf8BEkZD6ypikARiFXFJOAVFXmM5cDmF7Xf1NokVJ+xjariSZaINDkWVcyXyRH4oo7ZVYRHOhWlUJc/AL0ttmFa30TnEEH2K1fqmuveayyIhLkChCBa7J2yM5mEOcRaFFAzr2l9QSLI+4SYmWJHjBKcpl8sg1WrFC8cgM+kvBTz0I6HWYJ/xpexjYmPqQ8Jx/xrWr4rlz1hzG+B7cAPG2yJBwX+51VSG2L7cng2KusPRjGiemjfgeMVcCNue430w78KKjmt8Gj6fhfmF9Y8+lP4P1dYyfkSrw7215mgfnET7AhA3Za+VcCPjZOwIv/DbhD9C9k8n2gk9GunnwRbqmgUljS624vIncX4KYn86DcNpOJmNalDmJKKzMJriGRnVYKxhNukE629BMZsaJA/2UXYtfCTOYPz6ugivd7DKyhgmncgpQ39XcrsicHyHSsEckjXcw5PgLklERiGondjAAN/dbBfr8W5ibBDPUAbl6qOFQtyJb1j00EblKMkzA8cM7LTapvVOGL9Ix7jSutWrB+v+W7TUqa0z6Z6xuAYPx4FRjYa5u8vy0OrtFxxst2i/gx48c1w/fYJcymXVSwfI3jWi2o/BtUxW+XQdM+rumPIzYa9hGsPeP4/71rinTPCEF8Utu+pUXGln3ZnfKjUhz/Ol0kbxAEmV4du3+/oeQXF83PA+s/hyLA46/5GxaavW4cvAeICmyvCPezSGXThOzjj+6jhOuktPWsWG1/K/jJgGkjcsUStGUaRVgozGXEK0qH6Bcxmp7XYf3IPtfspr/+kYd4a7CB+K+hHMp+cPgF/p4xR3ljsatueXopsGz7e5749IiqzCV4bLTUKYVsqEkIZvxSa99W7LY+wf+HcS4xVDIWMS/pU8gHTp73VaGuz3gbvveH/H9cefi/d/Vd1xQLp2w79M1l72XF/EJhF1V8xOHP7TyWQ0PfdFc/qnazqkWqWpi+2kN8DX/wFYPV7YvRYAAA==</values>
+        <values>H4sIAAAAAAAA/+2X227bOBCGX4XQtevK5zh33RjBFkhbIA66WDSFQZGUxS1FainKrhv43XcoUQcf6tqJF5tgc2cNT/8M/08jf3nwOPUuvT698IdB2Mcjv9ft+f5FdzwOeuPQvxiN/Q6hXsuTOGYwUzOitH1eYJHZAPykPE0EXn2uIyTigmomvcsvX1tegjUsNkx7lw9bQ8eeLnDABEy9w3rODLotVWyrMqvEPlNFsphJM+Nl8MZtMHEj6P0ERmCRVeW3PPbdMEkZyAmxSFnLi7Gk2Ci9qiKaYfpJijoQcWlgy3dpqgjHhqXIRAyxGHOBltxECKNCWNuz+31P+Q8Q1+varUIGNSBWK5eEU1DkNcIzV1IYfl8PhxNs8NTojJhMV5VWnLC0qCZlIc6EuWrGigmfEsOVLJYYHIhytRJZLD8WRfSqDRo3maUghiW2NjZZOBwSD6eRWt6WYq+5zKvoqiIUwaJ6CqcMaxJdcybsVcssDmBuy8PGaB5kxsoEUwiYVZ8zy6Xas2AmEyy/yhgnCZfzWaLVgucHgvy4PRfw0A6FWsL6lM9lGxObaxtuD7evIT7Jw5+x5jbxD7ANLF63vHSVXgmcpnX6UP/Z35lVXxRjU45dPcsNZxcTzRPzDo5aMJfsuuVo6owP+Zn2a9829jwrUUcoqImybtivyNG0E7tprkUfiwHHUudElgpHOZTugB9TIF6Qg4yTV+Fz4W/i8xNsngcuFQRH87LJxb/jfTBJOisM7HLLD38EE78iwR8Og2AYDEa92odjEtJREA7xiPRq3y3h/aljrL/N8vdnA4fOLg/uzXAaE0doKZmAd67IKEN/lKIO6XSQBErBS0xuEwJK317n1a0I6T6p2xTWREYhuEyxgh5TSbLBugOZCBvEU5TCbbXRnULcZdVY0UIrlaE4Sw1MMzCyAd9G2+o/X+6cHVx0stcrLwLM8wM4ONwIcG1sHM2MamD38JBmgc2gndtpvUa7HO6dcxqVRwisOpXaVevgS+Fu5HyLvWkZdNz1DnNXNKId7BqNx3++CLwUh1vhgsc8N0TB5vlNTw96ivkbNiLkvJ9eRxxeGvrqalfJKYbuP66RvDr6xTm6c/AfMhtu+Cg4t6WPOL209G9bng5ONvXg1dT/E1MPDtuKbBgJPjT+YsQ0jH3LYrVgFIVaxchozCXkj+pPEi5DtV7v2v/odSd+yPw6mxKSaZXLvvxOgWX4+knzn7NyfjDwQSuF3c03rKKrBhX3me/3SIKs5jeGy1VMmFbKBFCYb/kgvffui2nsT/jzF+EFQwFjEv707QGj2O9tUizYpcmd9/j9TqPsiNJUragozE6lHF+RicUWXb/ffbip2Ro9sRENB4Pe8JWuJ3eiZEm7VKskcbmduRt9/QeOQ3ToBBkAAA==</values>
     </sys_hub_action_instance_v2>
     <sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=b272396b83935a103cf0c4b6feaad3ad"/>
     <sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=b272396b83935a103cf0c4b6feaad3ad^sys_idNOT IN550379ab83935a103cf0c4b6feaad32f,dd0379ab83935a103cf0c4b6feaad330"/>
@@ -942,14 +942,14 @@
     <sys_hub_flow action="UPDATE">
         <sys_id>b272396b83935a103cf0c4b6feaad3ad</sys_id>
         <latest_snapshot>550379ab83935a103cf0c4b6feaad370</latest_snapshot>
-        <compiler_build/>
+        <compiler_build>glide-xanadu-07-02-2024__patch4-11-22-2024_12-02-2024_1408.zip</compiler_build>
     </sys_hub_flow>
     <sys_flow_trigger_plan action="delete_multiple" query="plan_id=b272396b83935a103cf0c4b6feaad3ad"/>
     <sys_flow_subflow_plan action="delete_multiple" query="plan_id=b272396b83935a103cf0c4b6feaad3ad^sys_idNOT INa10379ab83935a103cf0c4b6feaad3a9"/>
     <sys_flow_subflow_plan action="INSERT_OR_UPDATE">
-        <plan>com.snc.process_flow.engine.ProcessPlan@65be84c</plan>
+        <plan>{"type":"PlanProxy","persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_subflow_plan","id":"a10379ab83935a103cf0c4b6feaad3a9","name":"plan","plan_signature":null}}</plan>
         <plan_id display_value="Remove Notification">b272396b83935a103cf0c4b6feaad3ad</plan_id>
-        <snapshot>550379ab83935a103cf0c4b6feaad370</snapshot>
+        <snapshot>a54bf5a783d35a103cf0c4b6feaad3f3</snapshot>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-01-30 19:24:11</sys_created_on>
         <sys_domain>global</sys_domain>
