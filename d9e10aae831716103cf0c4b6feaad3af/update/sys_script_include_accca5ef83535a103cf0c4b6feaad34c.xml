@@ -2,15 +2,15 @@
     <sys_script_include action="INSERT_OR_UPDATE">
         <access>public</access>
         <active>true</active>
-        <api_name>x_1593175_agenda_0.AjaxValidateDuplicate</api_name>
+        <api_name>x_1593175_agenda_0.AjaxUtils</api_name>
         <caller_access/>
         <client_callable>true</client_callable>
         <description/>
         <mobile_callable>false</mobile_callable>
-        <name>AjaxValidateDuplicate</name>
+        <name>AjaxUtils</name>
         <sandbox_callable>false</sandbox_callable>
-        <script><![CDATA[var AjaxValidateDuplicate = Class.create();
-AjaxValidateDuplicate.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+        <script><![CDATA[var AjaxUtils = Class.create();
+AjaxUtils.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
 	valDuplicate:function(){
 		var courseId = this.getParameter("sysparam_course_sys_id");
 		var date = this.getParameter("sysparam_date");
@@ -22,36 +22,37 @@ AjaxValidateDuplicate.prototype = Object.extendsObject(global.AbstractAjaxProces
 		grTraining.query();
 		var arrTraining=[];
 		while(grTraining.next()){
-			arrTraining.push(grTraining.getUniqueValue());
-		}
-		if(arrTraining.length>0){
 			return 'true';
 		}
 		return 'false';
 	},
-    type: 'AjaxValidateDuplicate'
+	valStudent: function(){
+		var courseId = this.getParameter("sysparam_course_sys_id");
+		var training = this.getParameter("sysparam_training");
+	},
+    type: 'AjaxUtils'
 });]]></script>
         <sys_class_name>sys_script_include</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-01-29 16:59:59</sys_created_on>
-        <sys_id>63e508578397d6103cf0c4b6feaad341</sys_id>
-        <sys_mod_count>8</sys_mod_count>
-        <sys_name>AjaxValidateDuplicate</sys_name>
+        <sys_created_on>2025-01-30 18:58:21</sys_created_on>
+        <sys_id>accca5ef83535a103cf0c4b6feaad34c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>AjaxUtils</sys_name>
         <sys_package display_value="Agendamento" source="x_1593175_agenda_0">d9e10aae831716103cf0c4b6feaad3af</sys_package>
         <sys_policy>read</sys_policy>
         <sys_scope display_value="Agendamento">d9e10aae831716103cf0c4b6feaad3af</sys_scope>
-        <sys_update_name>sys_script_include_63e508578397d6103cf0c4b6feaad341</sys_update_name>
+        <sys_update_name>sys_script_include_accca5ef83535a103cf0c4b6feaad34c</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-29 19:07:19</sys_updated_on>
+        <sys_updated_on>2025-01-30 18:58:21</sys_updated_on>
     </sys_script_include>
     <sys_es_latest_script action="INSERT_OR_UPDATE">
-        <id>63e508578397d6103cf0c4b6feaad341</id>
+        <id>accca5ef83535a103cf0c4b6feaad34c</id>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-01-29 16:59:58</sys_created_on>
-        <sys_id>af6804d78397d6103cf0c4b6feaad39c</sys_id>
+        <sys_created_on>2025-01-30 18:58:21</sys_created_on>
+        <sys_id>cb1d692383935a103cf0c4b6feaad350</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-29 16:59:58</sys_updated_on>
+        <sys_updated_on>2025-01-30 18:58:21</sys_updated_on>
         <table>sys_script_include</table>
         <use_es_latest>true</use_es_latest>
     </sys_es_latest_script>

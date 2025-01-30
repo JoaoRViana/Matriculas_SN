@@ -14,7 +14,7 @@
    if (isLoading || newValue === '' || g_form.getValue("course")==="") {
       return;
    }
-   var gaValidateDuplicate = new GlideAjax("AjaxValidateDuplicate");
+   var gaValidateDuplicate = new GlideAjax("AjaxUtils");
    gaValidateDuplicate.addParam("sysparm_name","valDuplicate");
    var course_id = g_form.getValue("course");
    var date = g_form.getValue("day");
@@ -41,7 +41,7 @@ function callback(response){
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>7902a8d7831bd6103cf0c4b6feaad36f</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name>ValidateDuplicateOnDayField</sys_name>
         <sys_overrides/>
         <sys_package display_value="Agendamento" source="x_1593175_agenda_0">d9e10aae831716103cf0c4b6feaad3af</sys_package>
@@ -49,7 +49,7 @@ function callback(response){
         <sys_scope display_value="Agendamento">d9e10aae831716103cf0c4b6feaad3af</sys_scope>
         <sys_update_name>sys_script_client_7902a8d7831bd6103cf0c4b6feaad36f</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-29 19:09:11</sys_updated_on>
+        <sys_updated_on>2025-01-30 19:00:42</sys_updated_on>
         <table>x_1593175_agenda_0_training</table>
         <type>onChange</type>
         <ui_type>0</ui_type>

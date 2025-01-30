@@ -43,7 +43,7 @@
         <omit_watermark>false</omit_watermark>
         <order>100</order>
         <push_message_only>false</push_message_only>
-        <recipient_fields>opened_by</recipient_fields>
+        <recipient_fields>student</recipient_fields>
         <recipient_groups/>
         <recipient_users/>
         <reply_to/>
@@ -58,7 +58,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>9a8856ea839716103cf0c4b6feaad3c5</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name>Approve Enroll</sys_name>
         <sys_overrides/>
         <sys_package display_value="Agendamento" source="x_1593175_agenda_0">d9e10aae831716103cf0c4b6feaad3af</sys_package>
@@ -66,7 +66,7 @@
         <sys_scope display_value="Agendamento">d9e10aae831716103cf0c4b6feaad3af</sys_scope>
         <sys_update_name>sysevent_email_action_9a8856ea839716103cf0c4b6feaad3c5</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-27 19:35:20</sys_updated_on>
+        <sys_updated_on>2025-01-30 19:20:30</sys_updated_on>
         <sys_version>2</sys_version>
         <template display_value="Unsubscribe and Preferences">7ed0481f3b0b2200c869c2c703efc487</template>
         <type>email</type>

@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="DELETE">
+        <access>public</access>
+        <active>true</active>
+        <api_name>x_1593175_agenda_0.AjaxUtils</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <mobile_callable>false</mobile_callable>
+        <name>AjaxUtils</name>
+        <sandbox_callable>false</sandbox_callable>
+        <script><![CDATA[var AjaxUtils = Class.create();
+AjaxUtils.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+	valDuplicate:function(){
+		var courseId = this.getParameter("sysparam_course_sys_id");
+		var date = this.getParameter("sysparam_date");
+		var realDate = date.split('/');
+		realDate = realDate[2]+'-'+realDate[1]+'-'+realDate[0];
+		var grTraining = new GlideRecord("x_1593175_agenda_0_training");
+		grTraining.addQuery("course",courseId);
+		grTraining.addEncodedQuery("dayON"+realDate+"@javascript:gs.dateGenerate"+"('"+realDate+"','start')@javascript:gs.dateGenerate"+"('"+realDate+"','end')");
+		grTraining.query();
+		var arrTraining=[];
+		while(grTraining.next()){
+			return 'true';
+		}
+		return 'false';
+	},
+	valStudent: function(){
+		var courseId = this.getParameter("sysparam_course_sys_id");
+		var training = this.getParameter("sysparam_training");
+	},
+    type: 'AjaxUtils'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-29 16:59:59</sys_created_on>
+        <sys_id>63e508578397d6103cf0c4b6feaad341</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_name>AjaxUtils</sys_name>
+        <sys_package display_value="Agendamento" source="x_1593175_agenda_0">d9e10aae831716103cf0c4b6feaad3af</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Agendamento">d9e10aae831716103cf0c4b6feaad3af</sys_scope>
+        <sys_update_name>sys_script_include_63e508578397d6103cf0c4b6feaad341</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-30 18:46:10</sys_updated_on>
+    </sys_script_include>
+    <sys_es_latest_script action="DELETE">
+        <id>63e508578397d6103cf0c4b6feaad341</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-29 16:59:58</sys_created_on>
+        <sys_id>af6804d78397d6103cf0c4b6feaad39c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-29 16:59:58</sys_updated_on>
+        <table>sys_script_include</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Agendamento">d9e10aae831716103cf0c4b6feaad3af</application>
+        <file_path/>
+        <instance_id>23596efddb36f55002d91729139619f7</instance_id>
+        <instance_name>dev228991</instance_name>
+        <name>sys_script_include_63e508578397d6103cf0c4b6feaad341</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_script_include"&gt;&lt;sys_script_include action="INSERT_OR_UPDATE"&gt;&lt;access&gt;public&lt;/access&gt;&lt;active&gt;true&lt;/active&gt;&lt;api_name&gt;x_1593175_agenda_0.AjaxUtils&lt;/api_name&gt;&lt;caller_access/&gt;&lt;client_callable&gt;true&lt;/client_callable&gt;&lt;description/&gt;&lt;mobile_callable&gt;false&lt;/mobile_callable&gt;&lt;name&gt;AjaxUtils&lt;/name&gt;&lt;sandbox_callable&gt;false&lt;/sandbox_callable&gt;&lt;script&gt;&lt;![CDATA[var AjaxUtils = Class.create();
+AjaxUtils.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+	valDuplicate:function(){
+		var courseId = this.getParameter("sysparam_course_sys_id");
+		var date = this.getParameter("sysparam_date");
+		var realDate = date.split('/');
+		realDate = realDate[2]+'-'+realDate[1]+'-'+realDate[0];
+		var grTraining = new GlideRecord("x_1593175_agenda_0_training");
+		grTraining.addQuery("course",courseId);
+		grTraining.addEncodedQuery("dayON"+realDate+"@javascript:gs.dateGenerate"+"('"+realDate+"','start')@javascript:gs.dateGenerate"+"('"+realDate+"','end')");
+		grTraining.query();
+		var arrTraining=[];
+		while(grTraining.next()){
+			return 'true';
+		}
+		return 'false';
+	},
+	valStudent: function(){
+		var courseId = this.getParameter("sysparam_course_sys_id");
+		var training = this.getParameter("sysparam_training");
+	},
+    type: 'AjaxUtils'
+});]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_include&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-01-29 16:59:59&lt;/sys_created_on&gt;&lt;sys_id&gt;63e508578397d6103cf0c4b6feaad341&lt;/sys_id&gt;&lt;sys_mod_count&gt;10&lt;/sys_mod_count&gt;&lt;sys_name&gt;AjaxUtils&lt;/sys_name&gt;&lt;sys_package display_value="Agendamento" source="x_1593175_agenda_0"&gt;d9e10aae831716103cf0c4b6feaad3af&lt;/sys_package&gt;&lt;sys_policy&gt;read&lt;/sys_policy&gt;&lt;sys_scope display_value="Agendamento"&gt;d9e10aae831716103cf0c4b6feaad3af&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_include_63e508578397d6103cf0c4b6feaad341&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-01-30 18:46:10&lt;/sys_updated_on&gt;&lt;/sys_script_include&gt;&lt;sys_es_latest_script action="INSERT_OR_UPDATE"&gt;&lt;id&gt;63e508578397d6103cf0c4b6feaad341&lt;/id&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-01-29 16:59:58&lt;/sys_created_on&gt;&lt;sys_id&gt;af6804d78397d6103cf0c4b6feaad39c&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-01-29 16:59:58&lt;/sys_updated_on&gt;&lt;table&gt;sys_script_include&lt;/table&gt;&lt;use_es_latest&gt;true&lt;/use_es_latest&gt;&lt;/sys_es_latest_script&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-28539325</payload_hash>
+        <record_name>AjaxUtils</record_name>
+        <reverted_from/>
+        <source>6f75ca62835716103cf0c4b6feaad3fb</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-30 18:46:11</sys_created_on>
+        <sys_id>bc5a2d6f83535a103cf0c4b6feaad398</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>194b888f57a0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-30 18:46:11</sys_updated_on>
+        <type>Script Include</type>
+        <update_guid>f05a2d6f38535a104a5e9760ba86a098</update_guid>
+        <update_guid_history>f05a2d6f38535a104a5e9760ba86a098:-28539325,c157e96b61535a10e10af8afe16624b0:-1399577867,582d592fd4135a105b29d1ed1731e343:0,539ccd679ddf1a10422aa9ef68314726:-572131209,954ccd67dadf1a10c751c8edb95aac1f:-1216990584,2f4bc527e3df1a10eede302b51c4ca92:998331621,71fa81275bdf1a101c5e427d501805c0:-1167349003,63aac9e3badf1a10c133a8bb065003d8:998331621,427a05e3ffdf1a10d49944b32d55b31b:2072273235,e65a81e340df1a106f663478c040f319:296631592,6b3a4da313df1a1021353dfcf259eb18:9151617,ec1a4da3b6df1a1095c776ff2873be46:-498513471,2369c963cedf1a102453e4356f8c5a42:-1786875369,58394d239bdf1a10de6116d290bbdb48:-1379698126,156481ebc39f1a1066e313426a1a8e67:100466821,3b36f86baf5f1a105bb02c4b8c7a7db6:-940570391,24f5f46ba65f1a1081712ba216f67d3f:1099607452,4b34b8a33e5f1a10c39310f8f3a42d5e:-1680160037,875274e3e95f1a107b5c233440649f20:171288947,f1203ca3b55f1a10f996d0c8d304a62b:-1821491632,bc95a45fae1bd6109a08f07c50a52c97:-1722736488,0665205fea1bd610227a506f63a86f81:-1826569383,6515ac9b3a1bd6107ef026b34b2b3d4f:-1722736488,f4c2a05b241bd610eb169372e50d0d41:1087962523,76b1241b341bd6108a7b218464f1f6a3:1461342802,841e58d3451bd6101565777d9a31024b:-1601774909,7e8d141f54d7d610c7334f79521b4a45:-940724989,b06d141f4bd7d610609e8c94755e94db:368770708,7768885bc297d6104029cd7da1f774cb:-1927567815</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-30 18:56:00</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_include">sys_script_include</sys_db_object>
+        <sys_id>0307e301268f4b249bba06c65ec47010</sys_id>
+        <sys_metadata>63e508578397d6103cf0c4b6feaad341</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>AjaxUtils</sys_name>
+        <sys_package display_value="Agendamento" source="x_1593175_agenda_0">d9e10aae831716103cf0c4b6feaad3af</sys_package>
+        <sys_parent/>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Agendamento">d9e10aae831716103cf0c4b6feaad3af</sys_scope>
+        <sys_scope_delete display_value="">14513bbd9921469c877665127e9c4fa4</sys_scope_delete>
+        <sys_update_name>sys_script_include_63e508578397d6103cf0c4b6feaad341</sys_update_name>
+        <sys_update_version display_value="sys_script_include_63e508578397d6103cf0c4b6feaad341">bc5a2d6f83535a103cf0c4b6feaad398</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-30 18:56:00</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

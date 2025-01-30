@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="DELETE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-27 19:07:32</sys_created_on>
+        <sys_id>e072d226839716103cf0c4b6feaad3f3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>checkDate.x_1593175_agenda_0.admin</sys_name>
+        <sys_package display_value="Agendamento" source="x_1593175_agenda_0">d9e10aae831716103cf0c4b6feaad3af</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Agendamento">d9e10aae831716103cf0c4b6feaad3af</sys_scope>
+        <sys_security_acl display_value="checkDate">2072d226839716103cf0c4b6feaad3ef</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_e072d226839716103cf0c4b6feaad3f3</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-27 19:07:32</sys_updated_on>
+        <sys_user_role display_value="x_1593175_agenda_0.admin" name="x_1593175_agenda_0.admin">ade14aae831716103cf0c4b6feaad325</sys_user_role>
+    </sys_security_acl_role>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Agendamento">d9e10aae831716103cf0c4b6feaad3af</application>
+        <file_path/>
+        <instance_id>23596efddb36f55002d91729139619f7</instance_id>
+        <instance_name>dev228991</instance_name>
+        <name>sys_security_acl_role_e072d226839716103cf0c4b6feaad3f3</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-27 19:07:32</sys_created_on>
+        <sys_id>e072d226839716103cf0c4b6feaad3f3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>checkDate.x_1593175_agenda_0.admin</sys_name>
+        <sys_package display_value="Agendamento" source="x_1593175_agenda_0">d9e10aae831716103cf0c4b6feaad3af</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Agendamento">d9e10aae831716103cf0c4b6feaad3af</sys_scope>
+        <sys_security_acl display_value="checkDate">2072d226839716103cf0c4b6feaad3ef</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_e072d226839716103cf0c4b6feaad3f3</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-27 19:07:32</sys_updated_on>
+        <sys_user_role display_value="x_1593175_agenda_0.admin" name="x_1593175_agenda_0.admin">ade14aae831716103cf0c4b6feaad325</sys_user_role>
+    </sys_security_acl_role>
+</record_update>]]></payload>
+        <payload_hash>-45559447</payload_hash>
+        <record_name>checkDate.x_1593175_agenda_0.admin</record_name>
+        <reverted_from/>
+        <source>7d0dddeb83135a103cf0c4b6feaad351</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-30 17:48:33</sys_created_on>
+        <sys_id>f02d992f83135a103cf0c4b6feaad36e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>194b85435440000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-30 17:48:33</sys_updated_on>
+        <type>Access Roles</type>
+        <update_guid>fc2d992fcb135a102b74e7ea82085a6d</update_guid>
+        <update_guid_history>fc2d992fcb135a102b74e7ea82085a6d:0,d1d37ab66b1f56103b2cd63c9b1b3db4:-1560158096,a472d22621971610c8400c8aa2f016f6:1032206393</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="checkDate.x_1593175_agenda_0.admin">18aaa5af83535a103cf0c4b6feaad38c</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-30 18:47:30</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl_role">sys_security_acl_role</sys_db_object>
+        <sys_id>9555f434deb447c0bf7250e546160400</sys_id>
+        <sys_metadata>e072d226839716103cf0c4b6feaad3f3</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>checkDate.x_1593175_agenda_0.admin</sys_name>
+        <sys_package display_value="Agendamento" source="x_1593175_agenda_0">d9e10aae831716103cf0c4b6feaad3af</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Agendamento">d9e10aae831716103cf0c4b6feaad3af</sys_scope>
+        <sys_scope_delete display_value="">14513bbd9921469c877665127e9c4fa4</sys_scope_delete>
+        <sys_update_name>sys_security_acl_role_e072d226839716103cf0c4b6feaad3f3</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_role_e072d226839716103cf0c4b6feaad3f3">f02d992f83135a103cf0c4b6feaad36e</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-30 18:47:30</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

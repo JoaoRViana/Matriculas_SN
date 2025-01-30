@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="info" label="Info" language="en" table="x_1593175_agenda_0_training">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>info</element>
+            <help/>
+            <hint/>
+            <label>Info</label>
+            <language>en</language>
+            <name>x_1593175_agenda_0_training</name>
+            <plural>Infos</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-01-30 18:24:51</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Info</sys_name>
+            <sys_package display_value="Agendamento" source="x_1593175_agenda_0">d9e10aae831716103cf0c4b6feaad3af</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Agendamento">d9e10aae831716103cf0c4b6feaad3af</sys_scope>
+            <sys_update_name>sys_documentation_x_1593175_agenda_0_training_info_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-01-30 18:24:51</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>
