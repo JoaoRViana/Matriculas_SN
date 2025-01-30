@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_list action="DELETE" parent="" relationship="" sys_domain="global" table="x_1593175_agenda_0_enrollment" version="2" view="RPT5d07da72839b56103cf0c4b6feaad3f2">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>number</element>
+            <list_id display_value="x_1593175_agenda_0_enrollment" element="NULL" name="x_1593175_agenda_0_enrollment" parent="NULL" relationship="NULL" sys_domain="global" view="da9d556f83135a103cf0c4b6feaad301">569dd56f83135a103cf0c4b6feaad371</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-01-30 17:50:34</sys_created_on>
+            <sys_id>d69dd56f83135a103cf0c4b6feaad372</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-01-30 17:50:34</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>state</element>
+            <list_id display_value="x_1593175_agenda_0_enrollment" element="NULL" name="x_1593175_agenda_0_enrollment" parent="NULL" relationship="NULL" sys_domain="global" view="da9d556f83135a103cf0c4b6feaad301">569dd56f83135a103cf0c4b6feaad371</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-01-30 17:50:34</sys_created_on>
+            <sys_id>de9dd56f83135a103cf0c4b6feaad372</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-01-30 17:50:34</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>training</element>
+            <list_id display_value="x_1593175_agenda_0_enrollment" element="NULL" name="x_1593175_agenda_0_enrollment" parent="NULL" relationship="NULL" sys_domain="global" view="da9d556f83135a103cf0c4b6feaad301">569dd56f83135a103cf0c4b6feaad371</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-01-30 17:50:34</sys_created_on>
+            <sys_id>d29dd56f83135a103cf0c4b6feaad373</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-01-30 17:50:34</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>sys_updated_on</element>
+            <list_id display_value="x_1593175_agenda_0_enrollment" element="NULL" name="x_1593175_agenda_0_enrollment" parent="NULL" relationship="NULL" sys_domain="global" view="da9d556f83135a103cf0c4b6feaad301">569dd56f83135a103cf0c4b6feaad371</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>3</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-01-30 17:50:34</sys_created_on>
+            <sys_id>d69dd56f83135a103cf0c4b6feaad373</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-01-30 17:50:34</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>x_1593175_agenda_0_enrollment</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-01-30 17:50:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>569dd56f83135a103cf0c4b6feaad371</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1593175_agenda_0_enrollment</sys_name>
+            <sys_package display_value="Agendamento" source="x_1593175_agenda_0">d9e10aae831716103cf0c4b6feaad3af</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Agendamento">d9e10aae831716103cf0c4b6feaad3af</sys_scope>
+            <sys_update_name>sys_ui_list_x_1593175_agenda_0_enrollment_RPT5d07da72839b56103cf0c4b6feaad3f2</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-01-30 17:50:34</sys_updated_on>
+            <sys_user/>
+            <view display_value="Rpt5d07da72839b56103cf0c4b6feaad3f2" name="RPT5d07da72839b56103cf0c4b6feaad3f2">da9d556f83135a103cf0c4b6feaad301</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Agendamento">d9e10aae831716103cf0c4b6feaad3af</application>
+        <file_path/>
+        <instance_id>23596efddb36f55002d91729139619f7</instance_id>
+        <instance_name>dev228991</instance_name>
+        <name>sys_ui_list_x_1593175_agenda_0_enrollment_RPT5d07da72839b56103cf0c4b6feaad3f2</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_list parent="" relationship="" sys_domain="global" table="x_1593175_agenda_0_enrollment" version="2" view="RPT5d07da72839b56103cf0c4b6feaad3f2"><sys_ui_list_element action="INSERT_OR_UPDATE"><average_value>false</average_value><element>number</element><list_id display_value="x_1593175_agenda_0_enrollment" element="NULL" name="x_1593175_agenda_0_enrollment" parent="NULL" relationship="NULL" sys_domain="global" view="da9d556f83135a103cf0c4b6feaad301">569dd56f83135a103cf0c4b6feaad371</list_id><max_value>false</max_value><min_value>false</min_value><position>0</position><sum>false</sum><sys_created_by>admin</sys_created_by><sys_created_on>2025-01-30 17:50:34</sys_created_on><sys_id>d69dd56f83135a103cf0c4b6feaad372</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-01-30 17:50:34</sys_updated_on></sys_ui_list_element><sys_ui_list_element action="INSERT_OR_UPDATE"><average_value>false</average_value><element>state</element><list_id display_value="x_1593175_agenda_0_enrollment" element="NULL" name="x_1593175_agenda_0_enrollment" parent="NULL" relationship="NULL" sys_domain="global" view="da9d556f83135a103cf0c4b6feaad301">569dd56f83135a103cf0c4b6feaad371</list_id><max_value>false</max_value><min_value>false</min_value><position>1</position><sum>false</sum><sys_created_by>admin</sys_created_by><sys_created_on>2025-01-30 17:50:34</sys_created_on><sys_id>de9dd56f83135a103cf0c4b6feaad372</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-01-30 17:50:34</sys_updated_on></sys_ui_list_element><sys_ui_list_element action="INSERT_OR_UPDATE"><average_value>false</average_value><element>training</element><list_id display_value="x_1593175_agenda_0_enrollment" element="NULL" name="x_1593175_agenda_0_enrollment" parent="NULL" relationship="NULL" sys_domain="global" view="da9d556f83135a103cf0c4b6feaad301">569dd56f83135a103cf0c4b6feaad371</list_id><max_value>false</max_value><min_value>false</min_value><position>2</position><sum>false</sum><sys_created_by>admin</sys_created_by><sys_created_on>2025-01-30 17:50:34</sys_created_on><sys_id>d29dd56f83135a103cf0c4b6feaad373</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-01-30 17:50:34</sys_updated_on></sys_ui_list_element><sys_ui_list_element action="INSERT_OR_UPDATE"><average_value>false</average_value><element>sys_updated_on</element><list_id display_value="x_1593175_agenda_0_enrollment" element="NULL" name="x_1593175_agenda_0_enrollment" parent="NULL" relationship="NULL" sys_domain="global" view="da9d556f83135a103cf0c4b6feaad301">569dd56f83135a103cf0c4b6feaad371</list_id><max_value>false</max_value><min_value>false</min_value><position>3</position><sum>false</sum><sys_created_by>admin</sys_created_by><sys_created_on>2025-01-30 17:50:34</sys_created_on><sys_id>d69dd56f83135a103cf0c4b6feaad373</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-01-30 17:50:34</sys_updated_on></sys_ui_list_element><sys_ui_list action="INSERT_OR_UPDATE"><average_value>false</average_value><element/><max_value>false</max_value><min_value>false</min_value><name>x_1593175_agenda_0_enrollment</name><parent/><position/><relationship/><sum>false</sum><sys_class_name>sys_ui_list</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-01-30 17:50:34</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>569dd56f83135a103cf0c4b6feaad371</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_1593175_agenda_0_enrollment</sys_name><sys_package display_value="Agendamento" source="x_1593175_agenda_0">d9e10aae831716103cf0c4b6feaad3af</sys_package><sys_policy/><sys_scope display_value="Agendamento">d9e10aae831716103cf0c4b6feaad3af</sys_scope><sys_update_name>sys_ui_list_x_1593175_agenda_0_enrollment_RPT5d07da72839b56103cf0c4b6feaad3f2</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-01-30 17:50:34</sys_updated_on><sys_user/><view display_value="Rpt5d07da72839b56103cf0c4b6feaad3f2" name="RPT5d07da72839b56103cf0c4b6feaad3f2">da9d556f83135a103cf0c4b6feaad301</view><view_name/></sys_ui_list></sys_ui_list></record_update>]]></payload>
+        <payload_hash>-154625009</payload_hash>
+        <record_name>Enrollment</record_name>
+        <reverted_from/>
+        <source>6f75ca62835716103cf0c4b6feaad3fb</source>
+        <source_table>sys_update_set</source_table>
+        <state>current</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-30 17:50:34</sys_created_on>
+        <sys_id>5a9dd56f83135a103cf0c4b6feaad375</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>194b8560c940000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-30 17:50:34</sys_updated_on>
+        <type>List Layout</type>
+        <update_guid>de9dd56fee135a1028e51dd072b5cb74</update_guid>
+        <update_guid_history>de9dd56fee135a1028e51dd072b5cb74:-154625009,950716b25b9b5610fcbfdbe143aa58e9:-406527757</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-30 17:50:38</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_list">sys_ui_list</sys_db_object>
+        <sys_id>6795dd9586b54672b2231d8e8e8819e1</sys_id>
+        <sys_metadata>569dd56f83135a103cf0c4b6feaad371</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1593175_agenda_0_enrollment</sys_name>
+        <sys_package display_value="Agendamento" source="x_1593175_agenda_0">d9e10aae831716103cf0c4b6feaad3af</sys_package>
+        <sys_parent display_value="Enrollment">af7482a2835716103cf0c4b6feaad35d</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Agendamento">d9e10aae831716103cf0c4b6feaad3af</sys_scope>
+        <sys_scope_delete display_value="">14513bbd9921469c877665127e9c4fa4</sys_scope_delete>
+        <sys_update_name>sys_ui_list_x_1593175_agenda_0_enrollment_RPT5d07da72839b56103cf0c4b6feaad3f2</sys_update_name>
+        <sys_update_version display_value="sys_ui_list_x_1593175_agenda_0_enrollment_RPT5d07da72839b56103cf0c4b6feaad3f2">5a9dd56f83135a103cf0c4b6feaad375</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-30 17:50:38</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

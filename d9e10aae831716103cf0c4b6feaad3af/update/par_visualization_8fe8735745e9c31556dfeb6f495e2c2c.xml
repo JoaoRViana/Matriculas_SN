@@ -5,7 +5,7 @@
         <description/>
         <macroponent display_value="List - Simple">2b1c080881e05dc63b917044290b233f</macroponent>
         <name>report instructor</name>
-        <properties>{"columns":"number,state,training,sys_updated_on","fixedQuery":"","hideColumnFiltering":false,"hideColumnGrouping":false,"hideColumnReorder":false,"hideColumnResizing":false,"hideColumnSorting":false,"hideDotwalk":false,"hideEmptyStateImage":false,"hideHeader":false,"hideHighlightContent":false,"hideHighlightedValues":false,"hideInlineEditing":false,"hideLastRefreshedText":true,"hideLinks":false,"hidePersonalization":true,"hideRefreshButton":false,"hideRowSelector":false,"hideTitle":false,"hideTitleRowCount":false,"hideViewAll":false,"highlightContent":{"color":"","patterns":[]},"highlightedValueConfigId":"","limit":20,"listTitle":"report instructor","maxCharLimit":4000,"maxColumns":4.0,"overrideWordWrapUserPref":false,"query":"training.dayONToday@javascript:gs.beginningOfToday()@javascript:gs.endOfToday()^training.teacherDYNAMIC90d1921e5f510100a9ad2572f2b477fe^EQ","refreshRequested":"","table":"x_1593175_agenda_0_enrollment","wordWrap":false}</properties>
+        <properties>{"columns":"number,state,training,sys_updated_on","fixedQuery":"","hideColumnFiltering":false,"hideColumnGrouping":false,"hideColumnReorder":false,"hideColumnResizing":false,"hideColumnSorting":false,"hideDotwalk":false,"hideEmptyStateImage":false,"hideHeader":false,"hideHighlightContent":false,"hideHighlightedValues":false,"hideInlineEditing":false,"hideLastRefreshedText":true,"hideLinks":false,"hidePersonalization":true,"hideRefreshButton":false,"hideRowSelector":false,"hideTitle":false,"hideTitleRowCount":false,"hideViewAll":false,"highlightContent":{"color":"","patterns":[]},"highlightedValueConfigId":"","limit":20,"listTitle":"report instructor","maxCharLimit":4000,"maxColumns":4.0,"overrideWordWrapUserPref":false,"query":"training.teacherDYNAMIC90d1921e5f510100a9ad2572f2b477fe^training.dayONToday@javascript:gs.beginningOfToday()@javascript:gs.endOfToday()","refreshRequested":"","table":"x_1593175_agenda_0_enrollment","wordWrap":false}</properties>
         <requested_by/>
         <scheduled_count/>
         <sys_class_name>par_visualization</sys_class_name>
@@ -22,7 +22,7 @@
         <sys_scope display_value="Agendamento">d9e10aae831716103cf0c4b6feaad3af</sys_scope>
         <sys_update_name>par_visualization_8fe8735745e9c31556dfeb6f495e2c2c</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-28 14:13:30</sys_updated_on>
+        <sys_updated_on>2025-01-30 17:50:28</sys_updated_on>
         <type>List - Simple</type>
     </par_visualization>
 </record_update>
