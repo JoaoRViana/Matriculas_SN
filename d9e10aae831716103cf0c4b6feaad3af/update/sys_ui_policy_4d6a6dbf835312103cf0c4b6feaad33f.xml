@@ -19,23 +19,23 @@
 
 }]]></script_true>
         <set_values/>
-        <short_description>Mandatory Fields Training Table</short_description>
+        <short_description>Mandatory Fields Course Table</short_description>
         <sys_class_name>sys_ui_policy</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-01-29 13:01:46</sys_created_on>
+        <sys_created_on>2025-01-31 13:25:09</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>b5d157038393d6103cf0c4b6feaad362</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_name>Mandatory Fields Training Table</sys_name>
+        <sys_id>4d6a6dbf835312103cf0c4b6feaad33f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Mandatory Fields Course Table</sys_name>
         <sys_overrides/>
         <sys_package display_value="Agendamento" source="x_1593175_agenda_0">d9e10aae831716103cf0c4b6feaad3af</sys_package>
         <sys_policy/>
         <sys_scope display_value="Agendamento">d9e10aae831716103cf0c4b6feaad3af</sys_scope>
-        <sys_update_name>sys_ui_policy_b5d157038393d6103cf0c4b6feaad362</sys_update_name>
+        <sys_update_name>sys_ui_policy_4d6a6dbf835312103cf0c4b6feaad33f</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-31 13:23:54</sys_updated_on>
-        <table>x_1593175_agenda_0_training</table>
+        <sys_updated_on>2025-01-31 13:25:09</sys_updated_on>
+        <table>x_1593175_agenda_0_course</table>
         <ui_type>0</ui_type>
         <view/>
     </sys_ui_policy>
